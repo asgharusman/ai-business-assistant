@@ -1,0 +1,20 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+
+# Local and temporary files
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor settings
+.vscode/

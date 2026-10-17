@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Business Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="app">
+        <header class="header">
+            <div class="logo">AI</div>
+            <div>
+                <h1>AI Business Assistant</h1>
+                <p>Your smart business helper</p>
+            </div>
+            <span class="status">Online</span>
+        </header>
+
+        <main class="chat-area" id="chatArea">
+            <div class="message assistant-message">
+                Hello! 👋 I'm your AI Business Assistant.
+                How can I help you today?
+            </div>
+        </main>
+
+        <div class="typing" id="typing" hidden>
+            Assistant is thinking...
+        </div>
+
+        <form class="chat-form" id="chatForm">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask me anything..."
+                autocomplete="off"
+                required
+            >
+            <button type="submit" id="sendButton">Send</button>
+        </form>
+
+        <footer>
+            Powered by n8n automation
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
